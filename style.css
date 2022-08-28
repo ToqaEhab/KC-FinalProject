@@ -2,6 +2,66 @@
     font-family: 'Baloo Bhaijaan 2', cursive;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(#7D96F0,#A770F0);
+    height: 100vh;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px;
+    margin-left: 25px;
+    top: 0;
+}
+
+header .logo {
+    display: flex;
+   align-items: center;
+}
+
+header .logo h2  a{
+    margin: 10px;
+    font-weight: bolder;
+    color: rgb(27, 25, 66);
+    
+    font-size: 35px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header ul li {
+    margin-right: 30px;
+}
+
+header ul li a {
+    padding: 6px 15px;
+}
+
+header ul li a:hover {
+    background: white;
+    color:#7D96F0;
+    border-radius: 18px;
+}
+
+.main {
+  
+   
+    width: 100%;
 }
