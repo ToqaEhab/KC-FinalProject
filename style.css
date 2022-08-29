@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    top: 0;
+    right: 0;
 }
 
 body {
@@ -21,27 +23,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 35px;
-    margin-left: 25px;
-    top: 0;
+    margin: 25px;
+    height: 80px;
 }
 
 header .logo {
     display: flex;
+    justify-content: center;
    align-items: center;
+   margin-top:25px;
 }
 
-header .logo h2  a{
-    margin: 10px;
-    font-weight: bolder;
-    color: rgb(27, 25, 66);
-    
-    font-size: 35px;
-}
 
 header ul {
     display: flex;
-    justify-content: center;
+  
     align-items: center;
     
 }
@@ -60,8 +56,3 @@ header ul li a:hover {
     border-radius: 18px;
 }
 
-.main {
-  
-   
-    width: 100%;
-}
