@@ -330,7 +330,7 @@ p {
     font-size:1.5rem ;
 }
 
-p {
+.home p {
     font-size: 1.4rem;
     word-spacing: 0.1rem;
  }
@@ -456,3 +456,31 @@ nav ul li a:hover{
 .abuot .abuot_text {
     width: 40%;
 }
+
+.features {
+    background-color: rgb(146, 146, 146 ,0.1);
+    padding: 2.5rem 7%;
+}
+
+.features h1 {
+    color: black;
+    font-size: 3.2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(132, 131, 131 ,0.4);
+    border-radius: 15px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+}
+
