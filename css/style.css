@@ -345,10 +345,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 75px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background-color: #a8bbff;
 }
 
 nav .logo {
-    margin-top: 48px;
+    margin-top: 22px;
 }
 
 nav ul li {
@@ -474,6 +479,9 @@ nav ul li a:hover{
 .box {
     display: flex;
     justify-content: space-between;
+    padding-left: 10% ;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 .card {
