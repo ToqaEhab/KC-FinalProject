@@ -8,8 +8,36 @@
     font-size: 16px;
 }
 
+h2{
+    font-size: 3.9rem;
+    text-align: center;
+    margin-bottom:auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: all 400ms ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: gray;
+    color: white;
+}
+
+/*================= NAVBAR =============*/
 
 nav {
+    top:0;
     padding-top: 1.8rem;
     padding-left: 8%;
     padding-right: 8%;
@@ -47,4 +75,18 @@ nav ul li a:hover{
     background:rgba(255,255,255,0.8);
     color:#7D96F0;
     border-radius: 10px;
+}
+
+/*=============== CARDZ ===============*/
+
+.cardz {
+    margin-top: 12rem;
+    width: 95%;
+}
+
+.cardz_container {
+    margin-top: 5rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 3rem;
 }
