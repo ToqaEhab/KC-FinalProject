@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #fff;
     height: 100vh;
     display: grid;
     place-items: center center;
@@ -59,30 +59,45 @@ nav ul li a:hover{
 
 /*=============== CARDZ ===============*/
 
+.max-width h2{
+    text-align: center;
+    position: relative; 
+    color:#a8bbff ;
+    font-size: 50px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;  
+   }
+   .max-width h2::after{
+       content: '';
+       position: absolute;
+       width: 300px;
+       height: 3px;
+       bottom: 0;
+       background:#a8bbff ;
+       left: 50%;
+       transform: translateX(-50%);
+   }
+
+   #one{
+    margin-bottom: auto;
+        }
+
 .cards {
     margin-top: 7rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,rlf));
     padding: 20px;
-    grid-gap: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .card {
     background-color: #a8bbff;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
-    width: 25rem;
-    
-   
+    width: 22rem;
+    margin: 35px;
 }
 
 .container {
     position: relative;
     clip-path: polygon(0 0,100% 0, 100% 85%,0 100%);
-    
 }
 
 .container img {
@@ -102,4 +117,27 @@ font-weight: 700;
 font-size: 40px;
 text-align: center;
 margin: 10px 0 15px 0;
+}
+
+.cards-container {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn a{
+    background-color:#7D96F0 ;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 7px;
+    display: inline-flex;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.btn a:hover{
+    transform: scale(0.9);
 }
