@@ -1,4 +1,4 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     outline: none;
@@ -74,4 +74,32 @@ form .form-row .textarea {
     width: 100%;
     bottom: 40px;
     background: #fff;
+}*/
+
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+section {
+    padding: 40px 15%;
+}
+
+.contact {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2rf);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-img img {
+    max-width:100% ;
+    width: 720px;
+    height: auto;
+    border-radius: 10px ;
+}*/
